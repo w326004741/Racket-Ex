@@ -2,7 +2,7 @@
 
 ; Q1. Re-write the following expressions in Racket
 ; and evaluate them using a Racket in- terpreter/compiler.
-; (a) (* 3 (+ 5 (/ 10 5)))
+; (a) (3 * (5+(10/5)))
 (* 3 (+ 5 (/ 10 5)))
 
 ; (b) (2+3+4+5)
