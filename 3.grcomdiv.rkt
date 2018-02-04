@@ -6,6 +6,6 @@
 (define (grcomdiv a b)
   (cond [(= b 0) a]
         [else (grcomdiv b (modulo a b))]))
-
+;modulo 取余
 (grcomdiv 10 15)
 (grcomdiv 64 30)
