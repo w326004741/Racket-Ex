@@ -18,6 +18,8 @@ Racket Exercise
 ```
 - #### "presentation": {"panel": "new"} :重新打开一个terminal panel。
 
+***
+#### Hamming https://github.com/w326004741/Racket-Ex/tree/master/hamming
 
 
 ## Reference
