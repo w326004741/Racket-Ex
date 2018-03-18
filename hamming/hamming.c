@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
     unsigned int wt;
 
     // (Hexadecimal十六进制)0xf = 15(Decimal十进制)  0xf 一个f代表15(十进制)，0xff两个就是255(15x15，15的平方)
-    for(int i = 0; i <= 0xfffffff; i++) {
+    for(int i = 0; i <= 0xff; i++) {
         wt = hamming(i);
         // wt = ___builtin_popcount(i);
         sum += wt;

@@ -8,7 +8,9 @@
 
 ;(define (discount price disc) (* price (/ disc 100.0)) -> 折扣价
 ;(define (discount price disc) (- price(* price (/ disc 100.0)))) -> 折扣后价
-(define (discount price disc) (* price (- 1(/ disc 100.0))))
+(define (discount price disc) 
+    (* price (- 1(/ disc 100.0)))
+    )
 
 (discount 10 5)
 (discount 29.90 50)
